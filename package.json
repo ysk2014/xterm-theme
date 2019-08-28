@@ -10,7 +10,11 @@
         "type": "git",
         "url": "git+https://github.com/ysk2014/xterm-theme.git"
     },
-    "keywords": [],
+    "keywords": [
+        "xterm",
+        "iterm2",
+        "theme"
+    ],
     "author": "",
     "license": "ISC",
     "bugs": {
