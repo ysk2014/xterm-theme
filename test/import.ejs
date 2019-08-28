@@ -1,0 +1,9 @@
+<% data.forEach(item => {%>
+import <%= item%> from '<%= "./iterm/"+item%>'
+<% })%>
+
+export {
+    <% data.forEach(item => {%>
+<%= item%>,
+<% })%>
+}

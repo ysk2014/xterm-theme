@@ -1,0 +1,31 @@
+{
+    "name": "xterm-theme",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "rollup -c rollup.config.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ysk2014/xterm-theme.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ysk2014/xterm-theme/issues"
+    },
+    "homepage": "https://github.com/ysk2014/xterm-theme#readme",
+    "devDependencies": {
+        "@babel/core": "^7.5.5",
+        "@babel/preset-env": "^7.5.5",
+        "ejs": "^2.6.2",
+        "fs-extra": "^8.1.0",
+        "globby": "^10.0.1",
+        "rollup": "^1.20.2",
+        "rollup-plugin-babel": "^4.3.3",
+        "rollup-plugin-terser": "^5.1.1",
+        "termcolors": "^0.5.0"
+    }
+}
