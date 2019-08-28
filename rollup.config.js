@@ -6,7 +6,8 @@ export default {
     output: {
         file: 'index.js',
         format: 'umd',
-        name: 'xtermTheme'
+        name: 'xtermTheme',
+        exports: 'named'
     },
     plugins: [babel(), terser()]
 };
